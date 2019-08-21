@@ -11,11 +11,8 @@ export class LeibnizFormula {
         let start = new Date();
         let n=0;
         for (; Math.abs(seriesSum-goal) > 0.000001 && n<300000; n++) {
-            //console.log(`n=${n}`);
             seriesSum+=this.liebnizOnceSync(n);
             // seriesSum+=await this.liebnizOnce(n);
-            //console.log(`${seriesSum} ? ${goal}`);
-            //console.log(Math.abs(seriesSum-goal));
         }
         let stop =new Date();
         console.log(`elapsed: ${stop.getTime()-start.getTime()} | score: ${seriesSum} (${n})`);

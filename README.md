@@ -23,7 +23,7 @@ A little explaintion of each criteria for the following results
 ### **If you think you can do better please read the pull request instructions below**
 
 # THE RESULTS 
-## All tests should preform on the same machine and can be pulished below
+## All tests should preform on the same machine and can be published below
 
 <img src="Assets/homepc.png" alt="home spec" width="350px"/>
 
